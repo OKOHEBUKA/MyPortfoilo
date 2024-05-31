@@ -1,0 +1,513 @@
+
+body{
+    background: linear-gradient(to right,rgb(94, 23, 122),rgb(77, 97, 212));
+    margin:0px;
+    scroll-behavior: smooth;
+}
+
+    
+
+h1:hover{
+    color:rgb(142, 142, 190);
+    transition:0.5s;
+}
+.navbar a{
+    text-decoration: none;
+    text-align: none;
+    display: block;
+    padding:15px;
+    color:white;
+    
+    
+}
+.navbar ul{
+    list-style-type: none; 
+    background:linear-gradient(to right, rgba(54, 64, 138, 0.4) ,rgba(66, 27, 77, 0.4));
+    padding:6px;
+    overflow: hidden;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+    position: fixed;
+    z-index: 30;
+    margin-left: 0px;
+    margin-top: -110px;
+    width: 100%;
+    
+    
+}
+.navbar li{
+    float:left;
+    height:25px;
+
+    
+    
+
+
+}
+.navbar a:hover{
+    background-color:rgb(91, 91, 121);
+    transition: 0.7s;
+    border-radius: 10px;
+}
+img{
+    width:700px;
+}
+.para{
+    background-color:rgb(255, 255, 255,0.5);
+    border-radius: 10px;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        margin-left: 10%;
+        width: 35%;
+        height:400px;
+        overflow: auto;
+        
+    
+animation: mycolorchange;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-play-state:running;
+animation-delay: 0;
+animation-timing-function: linear;
+
+}
+#space{
+    margin-left: 600px;
+}
+.space{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding:0.5;
+}
+.para:hover{
+    background-color:rgb(255, 255, 255);
+
+
+     
+}
+
+@keyframes mycolorchange{
+    0%{background-color: rgb(97, 67, 136);}
+    20%{background-color: rgb(190, 175, 240);}
+    40%{background-color: rgb(165, 74, 240);}
+    60%{background-color: rgb(144, 113, 216);}
+    80%{background-color: rgb(185, 191, 248);}
+    100%{background-color: rgb(172, 121, 240);}
+}
+
+.image {
+     background-image: url(game.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+      width: 90%;
+      height:350px; 
+      margin-top: 5%;
+      margin-left: 5%;
+      border-radius: 5%;
+}
+
+.contact {
+    padding: 50px;
+    }
+    .contact-form {
+       
+    max-width: 400px;
+    margin: 0 auto;
+    }
+    input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    }
+    .cntbtn{
+        background:linear-gradient(to right, rgb(54, 64, 138) ,rgb(66, 27, 77));
+    color: #fff;
+    cursor: pointer;
+    margin-left: 13px;
+    }
+    #pad{
+     
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        margin-left: 10%;
+        width: 38%;
+        height:400px;
+        background-color:rgb(255, 255, 255,0.5);
+        border-radius: 10px;
+    padding: 12px;
+    overflow: auto;
+       
+animation: mycolorchange;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-play-state:running;
+animation-delay: 0;
+animation-timing-function: linear;
+
+        
+    }
+    .transparent{
+        border-radius: 20px;
+        background-color: rgba(234, 224, 235, 0.35);
+        background-size: 100% 100%;
+        margin-left: 10%;
+          width: 35%;
+          height:400px;
+          animation: mycolorchange;
+          overflow: auto;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-play-state:running;
+animation-delay: 0;
+animation-timing-function: linear;
+          
+    
+    }
+  
+    .flex{
+        margin-top: 10%;
+        display: flex;
+    }
+    .image2{
+        background-image: url(idea.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+      width: 90%;
+      height:350px; 
+      margin-top: 5%;
+      margin-left: 5%;
+      border-radius: 5%;
+      
+    }
+    .flex2{
+        display: flex;
+    }
+h1{
+    text-align: center;
+}
+.neonbtn{
+    border-radius: 50px;
+    padding: 15px;
+    background-color: rgb(29, 28, 28);
+    box-shadow: 2px 2px 3px #000000b4;
+    cursor: pointer;
+    border: none;
+    color: white;
+    
+    
+}
+.testbtn{
+    width: 10%;
+    position: relative;
+    padding: 15px;
+    border-radius: 70px;
+    transition: all 0.4s ease;
+}
+.testbtn::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 70px;
+    z-index: -10;
+    filter: blur(0);
+    transition: filter 0.4s ease;
+}
+.testbtn:hover::before{
+    background: linear-gradient(90deg, #10a1f5, #f441d6);
+    filter: blur(1.9em);
+}
+.testbtn:active::before{
+    filter: blur(0.2em);
+}
+#aboutme p{
+    font-size: 15px;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image3{
+    background-image: url(about.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     width: 90%;
+     height:350px; 
+     margin-top: 5%;
+     margin-left: 5%;
+     border-radius: 50%;
+}
+.flex3{
+    display: flex;
+}
+#trans{
+    border-radius:50%;
+}
+.projects p{
+    text-align: center;
+}
+.testbtn a{
+    text-decoration: none;
+}
+.navflex{
+    display:flex;
+}
+#bot{
+    margin-left: 650px;
+    
+}
+#name{
+    margin-top: 15px;
+    margin-left: 70px;
+    color:white;
+    font-size:120%;
+
+
+}
+.back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(202, 202, 255);
+    transition: 0.2s ease-out;
+}
+.back-to-top :hover{
+    transform: translateY(-4px);
+
+}
+.text{
+     font-size:26px ;
+
+}
+.hire{
+    align-content: center;
+    width:200px;
+    margin-left:550px;  
+         
+animation: myscale;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-play-state:running;
+animation-delay: 0;
+animation-timing-function: linear;
+    
+}
+
+@keyframes myscale{
+    50%{transform:scale(0.6, 0.6);}
+}
+
+@media screen and (max-width: 768px) and (min-width:320px){
+    
+    h1:hover{
+        color:rgb(142, 142, 190);
+        transition:0.5s;
+    }
+    .navbar a{
+        text-decoration: none;
+        text-align: none;
+        
+        padding:1px;
+        color:white;
+    }
+    .navbar ul{
+        list-style-type: none; 
+        background:linear-gradient(to right, rgba(56, 19, 126, 0.4) ,rgba(59, 8, 70, 0.4));
+        padding:10px;
+        overflow: hidden;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 25px;
+        position: fixed;
+        z-index: 30;
+        margin-left: 140px;
+        margin-top: -60px;
+        width: auto;
+        height: 80px;
+    }
+    #name{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    li{
+        float:left;
+        height:0px;
+    }
+   
+    .navbar a:hover{
+        background-color:rgb(91, 91, 121);
+        transition: 0.7s;
+        border-radius: 10px;
+    }
+    img{
+        width:700px;
+    }
+  
+    #space{
+        font-size: 15px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .space{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 30px
+    }
+    .image {
+        background-image: url(game.jpg);
+        background-repeat: no-repeat;
+            background-size: 100% 100%;
+         width: 90%;
+         height:300px; 
+         margin-top: 10%;
+         margin-left: 5%;
+         border-radius: 5%;
+   }
+   .flex{
+    margin-top: 10%;
+    display: flex;
+}
+#pad{
+     
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-left: 10%;
+    width: 35%;
+    height:350px;
+    background-color:rgb(255, 255, 255,0.5);
+    border-radius: 10px;
+padding: 12px;
+overflow: auto;
+   
+animation: mycolorchange;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-play-state:running;
+animation-delay: 0;
+animation-timing-function: linear;
+
+    
+}
+.transparent{
+    border-radius: 20px;
+    background-color: rgba(234, 224, 235, 0.35);
+    background-size: 100% 100%;
+    margin-left: 7%;
+    margin-top: 70px;
+      width: 35%;
+      height:350px;
+      animation: mycolorchange;
+      overflow: auto;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-play-state:running;
+animation-delay: 0;
+animation-timing-function: linear;
+      
+
+}
+.image2{
+    background-image: url(idea.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+  width: 90%;
+  height:300px; 
+  margin-top: 10%;
+  margin-left: 5%;
+  border-radius: 5%;
+}
+  
+
+
+}
+@media screen and (max-width:425px) and (min-width: 320px){
+    .navbar a{
+        text-decoration: none;
+        text-align: none;
+        
+        padding:1px;
+        color:white;
+    }
+    .navbar ul{
+        list-style-type: none; 
+        background:linear-gradient(to right, rgba(53, 126, 19, 0.4) ,rgba(59, 8, 70, 0.4));
+        padding:10px;
+        overflow: hidden;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 25px;
+        position: fixed;
+        z-index: 30;
+        margin-left: 7px;
+        margin-top: -30px;
+        max-width   : auto;
+        height: 50px;
+    }
+    #name{
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    li{
+        float:left;
+        height:0px;
+    }
+   
+    .navbar a:hover{
+        background-color:rgb(91, 91, 121);
+        transition: 0.7s;
+        border-radius: 10px;
+    }
+    img{
+        width:700px;
+    }
+  
+    #space{
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .space{
+        font-size: 10px;
+        margin-left: 5px;
+        margin-top: 20px
+    }   
+    .contact {
+        padding: 50px;
+        }
+        h2{
+            margin-left: 100px;
+        }
+        .contact-form {
+           
+        max-width: 400px;
+        margin: 0 auto;
+        }
+        input, textarea, button {
+        display: block;
+        width: 170px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        }
+        .cntbtn{
+            background:linear-gradient(to right, rgb(54, 138, 65) ,rgb(66, 27, 77));
+        color: #fff;
+        cursor: pointer;
+        margin-left: 100px;
+        width: 100px;
+        }
+}
